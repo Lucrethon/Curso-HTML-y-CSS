@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px
+}
+
+.box_default{
+    padding: 25px;
+    border: 10px solid blue;
+
+}
+
+.box_new{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid blue;
+}

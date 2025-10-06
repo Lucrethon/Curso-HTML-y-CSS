@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Select y Datalist </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <form>
+        <h2>Formulario de contacto</h2>
+
+        <div class="form_input">
+            <label for="Nombre">Nombre completo</label>
+            <input id="Nombre" type="text" placeholder="Pepito">
+        </div>
+
+        <div class="form_input">
+            <label for="Apellido">Apellido</label>
+            <input id="Apellido" type="text" placeholder="Perez">
+        </div>
+
+        <div class="form_input">
+            <label for="Edad">Edad</label>
+            <input id="Edad" type="number" placeholder="Edad">
+        </div>
+
+        <div class="form_input">
+            <label for="Correo">Correo electronico</label>
+            <input id="Correo" type="email" placeholder="pepito@gmail.com">
+        </div>
+        
+        <div class="form_input">
+            <label for="Telefono">Telefono</label>
+            <input id="Telefono" type="number" placeholder="Numero Telefonico">
+        </div>
+
+        <!-- TEXTAREA -->
+        
+        <div class="form_input">
+            <label for="Mensaje">Mensaje</label>
+            <textarea id="Mensaje" rows="3" placeholder="Escriba su mensaje aqui"></textarea>
+        </div>
+
+        
+        <!-- SELECT Y OPTION -->
+
+        <div class="form_input">
+            <label>Tipo de fruta
+                <select name="fruits">
+                    <option value="fruit1">Piña</option>
+                    <option value="fruit2">Manzana</option>
+                    <option value="fruit3">Fresa</option>
+                    <option value="fruit4">Uva</option>
+
+                <!-- El select es una lista que se despliega para poner elegir una opcion. 
+                Las opciones son la etiqueta <option> y se les agrega un value que funciona a nivel interno cuando se manejan bases de datos para saber leer ese dato. El servidor va a leer el value, no el texto que el usuario ve-->
+
+                </label>
+            </select>
+
+            <!-- DATALIST Y OPTION -->
+
+        <div class="form_input">
+            <label class="datalist_label">Pais de Envio
+                <input list="Pais" name="Pais">
+                <datalist id="Pais" name="Pais">
+                    <option value="Colombia">Bogota</option>
+                    <option value="Peru">Lima</option>
+                    <option value="Venezuela">Caracas</option>
+                    <option value="Argentina">Buenos Aires</option>
+
+                <!-- La diferencia entre el Select y el Datalist es que el ultimo necesita un input. El id lo debe tener el datalist y el list lo debe tener el input. 
+
+                Se puede escribir el value como un option y viceversa. Ambas son validas. Asi no se muestra doble. El option tambien puede servir como descripcion del value-->
+
+                </label>
+            </datalist>    
+
+
+        <div class="form_input condiciones">
+            <label>Acepto los terminos y condiciones. <input class="checkbox" type="checkbox"></label>
+        </div>
+
+        <div class="form_input form_submit">
+            <input type="submit" placeholder="Enviar">
+        </div>
+
+
+
+        
+    </form>
+
+
+</head>
+
+<body>
+
+
+</body>
+
+
+
+        <!-- Atributo readonly (booleano): hace que el placeholder solo se pueda leer y no se pueda modificar. Se utiliza puntualmente cuando se le muestra informacion al usuario que no se puede modificar, sin embargo, la informacion dentro se puede enviar a una base de datos
+
+        Atributo disabled: deshabilita el area de texto. Directamente se desactiva y no se envia nada a la base de datos
+        
+        max y minlength: maximo y minimo de caracteres
+        
+        row: cantidad de lineas que le vamos a permitir al usuario escribir
+        
+        Usar la unidad de medida em (que es una unidad relativa. El tamaño se adapta al fontsize de su caja contenedora) esta bueno para adaptar todo de forma rapida a cualquier dispositivo-->
+
+
+        <!-- Las labels se utilizan para opciones de accesibilidad. El label para que haga focus al elemento, se le tiene que poner un id al elemento que se le quiere hacer focus y agregar la propiedad en el lable for="ID"
+
+        Otra opcion es que el label encierre todo el imput. asi se ahorra lo de ID y label->

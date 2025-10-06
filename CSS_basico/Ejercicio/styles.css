@@ -1,0 +1,116 @@
+body {
+    background: #330055;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-image: url("https://wallpapers.com/images/hd/hollow-knight-background-38ucetqalz46clsr.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.card {
+    text-align: center;
+    width:60vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #030008, #573877);
+    border: 2px solid #1c0031;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 0 0 30px 10px #1c0031;
+}
+
+.img1 {
+    margin: auto;
+    margin-top: 20px;
+    width: 55vw
+
+}
+
+.card_title {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #a797bb;
+    font-family: "Trajan_Pro";
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.card_subtitle {
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #a797bb;
+    font-family: "Trajan_Pro";
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-shadow: 0 0 10px #441f66;
+    margin: 8px;
+    margin-bottom: 30px;
+
+}
+
+.card_description1 {
+    font-size: 19px;
+    padding: 10px;
+    text-align: justify;
+    color: #a797bb;
+    font-family: "Trajan_Pro";
+    line-height: 1.5;
+}
+
+
+.card_description2 {
+    font-size: 19px;
+    padding: 10px;
+    text-align: justify;
+    color: #a797bb;
+    font-family: "Trajan_Pro";
+    line-height: 1.5;
+
+}
+
+.card_description3 {
+    font-size: 19px;
+    padding: 10px;
+    text-align: justify;
+    color: #a797bb;
+    font-family: "Trajan_Pro";
+    line-height: 1.5;
+
+}
+
+.card_description4 {
+    font-size: 19px;
+    padding: 10px;
+    text-align: justify;
+    color: #a797bb;
+    font-family: "Trajan_Pro";
+    line-height: 1.5;
+
+}
+
+.card2 {
+    width: 55vw;
+    height: 700px;
+    margin: 20px;
+    background-image: url("Imagenes/Hollow-Knight-Phone-Wallpaper.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.card_description5 {
+    font-size: 19px;
+    padding: 10px;
+    text-align: justify;
+    color: #d2cadd;
+    font-family: "Trajan_Pro";
+    line-height: 1.5;
+
+}

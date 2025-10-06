@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Margin y Padding</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- Contenido: es el contenido de la caja. Estos pueden ser el titulo, texto, form, etc
+Padding: es el espacio que hay entre el contenido y el margen 
+Margin: distancia que separa la caja de otros elementos (que tambien son cajas) -->
+
+
+    <form class="formulario">
+        <input class="formulario_input" type="email" placeholder="pepito@gmail.com">
+        <input class="formulario_input" type="password" placeholder="contraseña">
+        <input class="formulario_input formulario_submit" type="submit">
+    </form>
+
+    <!-- Ctrl + Alt y flechita para abajo o para arriba para seleccionar varias lineas y escribir en el mismo espacio de todas ellas -->
+<!-- 
+    Colocar solamente "Padding" es un shorthand porque es una forma de abreviar varias propiedades, ya que automaticamente agrega relleno de forma simetrica hacia todos lados
+    Sin embargo, tambien existe Padding-top (agrega pixeles arriba), Paddiong-bottom (agrega pixeles abajo), padding-left (agregar pixeles a la izquiera) y padding-right (agregar pixeles a la derecha) -->
+<!-- 
+    Tambien se puede colocar solamente padding y agregar las propiedades en los 4 sentidos siguiento el sentido de las agujas del reloj (arriba, derecha, abajo, izquierda). Ejemplo: paddig: 30px (arriba) 10px (derecha) 20px (abajo) 30px (izquierda) -->
+
+    <!-- Si se colocan dos valores solamente, el primero define el vertical (arriba y abajo) y el segundo el horizonal (derecha e izquierda) -->
+
+
+    <!-- Margin: cuanto se va a separar cada elemento de otro. Si se coloca margin a los imputs de un form, los inputs se van a separar entre si. 
+    
+    Los margenes se superponen, prevaleciendo el mas grande. No se suman entre si (Margin collapse)
+    
+    El margen no forma parte de la caja. El padding y el borde si-->
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+
+</body>
+
+</html>

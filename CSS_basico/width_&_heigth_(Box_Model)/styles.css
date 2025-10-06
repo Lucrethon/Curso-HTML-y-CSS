@@ -1,0 +1,16 @@
+div {
+    background-color: aquamarine;
+    width: 400px;
+    height: 40px;
+}
+
+form {
+    background-color: bisque;
+    width: 500px;
+    height: 100px;
+}
+
+input {
+    background-color: whitesmoke;
+    width: 90%;
+}

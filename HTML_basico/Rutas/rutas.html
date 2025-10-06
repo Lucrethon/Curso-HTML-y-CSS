@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <title>Manejo de Rutas</title>
+</head>
+
+<body>
+
+<h1>Manejo de Rutas</h1> 
+
+<h2>Tipos de Rutas</h2>
+
+<ul>
+
+    <li>Rutas Absolutas</li>
+    <p>Son rutas donde se coloca un recurso y es absoluto que esta ahi, como un enlace de una red social por ejemplo, donde se puede acceder a ella desde cualquier parte de la misma forma</p>
+
+    <li>Rutas Relativas</li>
+    <p>Son rutas en las que se puede acceder a los recursos que estan en ella de formas diferentes dependiendo de donde te encuentres. Por ejemplo, un archivo .html que se encuentra dentro de una carpeta, solo puede acceder a los recursos de esa carpeta. Para acceder a recursos que se encuentran en otras carpetas, se tiene que hacer un llamado diferente dependiendo de donde se encuentre</p>
+
+</ul>
+
+<h3>Formas de acceso de rutas relativas</h3>
+
+<ul>
+
+    <li>Si hay que retroceder una carpeta atras</li>
+
+    <p>href="../nombre_de_archivo"</p>
+
+    <p>Se coloca ../ antes de escribir el nombre del archivo. Si se quiere atrasar mas de una posicion, seria "../../" y asi sucesivamente</p>
+
+    <p>De esa forma retrocedes una carpeta atras. Ejemplo: si se quiere acceder a un archivo que esta en "carpeta_1" desde "carpeta_2", y "carpeta_2" esta contenida en "carpeta_1", entonces se tiene que retroceder una carpeta atras</p>
+
+    <p>
+        <a href="../lists_ordered_&_unordered.html"> Accediendo a archivo listas contenida en carpeta1 desde carpeta2</a>
+
+    </p>
+    
+>
+    <li>Si hay que avanzar una carpeta</li>
+
+    <p>href="nombre_carpeta/nombre_de_archivo" (como si fuera una ruta de windows) </p>
+
+    <p>Se coloca el nombre de la carpeta a la que se quiere acceder antes de escribir el nombre del archivo. Si se quiere adelantar mas de una posicion, seria "carpeta1/carpeta2/nombre_archivo"</p>
+
+    <p>Ejemplo: si se quiere acceder a un archivo que esta en "carpeta_2" desde "carpeta_1", y "carpeta_2" esta contenida en "carpeta_1", entonces se tiene que "avanzar" una carpeta</p>
+
+</ul>
+
+<img src="../enlaces/Imagenes/sea_otter_4.jpg"
+
+
+</body>
+</html>

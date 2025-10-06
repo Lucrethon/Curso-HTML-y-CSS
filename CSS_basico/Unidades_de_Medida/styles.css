@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.box{
+    background-color: #cdcbcb;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #484747;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #484747;
+    background: fuchsia;
+}
+
+span {
+    color: #878383;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p {
+    color: #878383;
+}

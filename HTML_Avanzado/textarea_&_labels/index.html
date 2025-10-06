@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Textarea </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <form>
+        <h2>Formulario de contacto</h2>
+
+        <div class="form_input">
+            <label for="Nombre">Nombre completo</label>
+            <input id="Nombre" type="text" placeholder="Pepito Perez">
+        </div>
+
+        <div class="form_input">
+            <label for="Correo">Correo electronico</label>
+            <input id="Correo" type="email" placeholder="pepito@gmail.com">
+        </div>
+        
+        <div class="form_input">
+            <label for="Mensaje">Mensaje</label>
+            <textarea id="Mensaje" rows="3" placeholder="Escriba su mensaje aqui"></textarea>
+        </div>
+
+        <div class="form_input">
+            <label>Acepto los terminos y condiciones. <input class="checkbox" type="checkbox"></label>
+        </div>
+
+        <div class="form_input form_submit">
+            <input type="submit" placeholder="Enviar">
+        </div>
+
+        <!-- Atribujo readonly (booleano): hace que el placeholder solo se pueda leer y no se pueda modificar. Se utiliza puntualmente cuando se le muestra informacion al usuario que no se puede modificar, sin embargo, la informacion dentro se puede enviar a una base de datos
+
+        Atributo disabled: deshabilita el area de texto. Directamente se desactiva y no se envia nada a la base de datos
+        
+        max y minlength: maximo y minimo de caracteres
+        
+        row: cantidad de lineas que le vamos a permitir al usuario escribir
+        
+        Usar la unidad de medida em (que es una unidad relativa. El tamaño se adapta al fontsize de su caja contenedora) esta bueno para adaptar todo de forma rapida a cualquier dispositivo-->
+
+
+        <!-- Las labels se utilizan para opciones de accesibilidad. El label para que haga focus al elemento, se le tiene que poner un id al elemento que se le quiere hacer focus y agregar la propiedad en el lable for="ID"
+
+        Otra opcion es que el label encierre todo el imput. asi se ahorra lo de ID y label->
+
+    </form>
+
+
+</head>
+
+<body>
+
+
+</body>

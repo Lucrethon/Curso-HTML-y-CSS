@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Border</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- existen 3 propiedades de bordes a modificar: 
+border-width: ancho de borde
+border-style: estilo de borde (de puntos, lideas, doble borde, etc)
+border-color: color del borde 
+border-radius: curvatura del borde 
+
+si las propiedades width, style y color no estan definifas, el borde no se va a ver
+la propiedad "border" a secas, abarca width, style y color al mismo tiempo, ese ese mismo orden
+
+se puede poner el porde transparente (color) y hidden (style), afectando el tamaño del borde y de la caja pero no se ve
+cuando se redondea el borde (border-radius) con porcentaje, se redondea diferente a que fuera con pixeles. Mientras que cuando se redondea en pixeles, la caja se parte en varios cuadrados simetricos y redondea los cuadrados de las esquinas, cuando se hace con porcentajes la caja se parte solo en 4 cajas
+
+
+si se quiere dar un borde solamente arriba, derecha, abajo o izquierda, se coloca "border-top:" (si es arriba) y las propiedades
+Si se quiere modificar el border-radius de una sola esquina, se utiliza "border-top-rigth-radius". Este modifica el porde de arriba a la derecha. Si se quiere modificar el de abajo a la izquierda seria "border-bottom-left-bottom"
+
+Como el padding, tambien tiene su shorthand que es "border-radius: arriba-derecha, arriba-izquierda, abajo-derecha, abajo-izquierda"
+Si se colocan solo dos afectaria en diagonal: arriba-derecha junto con abajo-izquierda y arriba-izquierda junto con abajo-derecha
+-->
+
+<div>
+    Bienvenido
+</div>
+
+<form class="login_form">
+    <input class="login_form_input" type="email" placeholder="pepito4@gmail.com">
+    <input class="login_form_input" type="password" placeholder="contraseña">
+    <input class="login_form_input form_submit" type="submit" placeholder="pepito4@gmail.com">
+</form>
+
+</body>
+
+</html>

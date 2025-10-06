@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enlazando CSS</title>
+</head>
+
+<body>
+<h1>TITULO</h1>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam vel adipisci nulla voluptatum deserunt voluptates reprehenderit quasi sed commodi. Recusandae aliquid a, ad sequi animi quod accusamus quia enim labore!
+
+</p>
+
+<p>Con CSS se modifican las propiedades de los elemntos HTML, que se accede a ellos de una forma diferente que los atributos</p>
+
+<p>
+    Estilo en linea: es un estilo que se le da a una etiqueta en una sola linea como si fuera un atributo con "style="color, size, etc". Esto es una mala practica porque se mezcla codigo de HTML con codigo CCS. Lo correcto es dar estilo como si fuera una etiqueta nueva (etiqueta style) en un archivo separado (hoja de estilo), y se utiliza la etiqueta link para linkear la hoja de estilo con el archivo HTML </p>
+
+<p>
+
+    La etiqueta link se suele colocar en el head, y se le da el atributo rel (de relationship) ="stylesheet" y href="ruta/nombre de archivo". Esto le dice al archivo actual que el archivo que se va a vincular a este es una hoja de estilo "< link rel="stylesheet" href="styles.css">"
+</p>
+
+
+<p>
+
+En la hoja de estilo, se seleccionan los elementos que se van a modificar. La mas basica es colocar simbolo elemento y abrir las llaves en las que se van a colocar las declaraciones (parametros a modificar del elemento). Ejemplo: p {color="blue"}
+</p>
+
+
+</body>
+
+</html>

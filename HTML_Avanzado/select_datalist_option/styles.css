@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: "Trajan_Pro";
+    color: #d2cadd;
+    background: #1c0031;
+}
+
+h2{
+    text-align: center;
+    padding: 12px;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+form {
+    background: transparent;
+    padding: 20px 0;
+    padding-top: 10px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 0 15px 0 #d2cadd55;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+input, textarea, select, datalist {
+    width: 100%;
+    font-family: "Trajan_Pro";
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border-bottom: 1px solid #a797bb;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #010002;
+    background-color: transparent;
+    color: #d2cadd;
+    margin: auto;
+
+}
+
+.form_input {
+    padding: 6px 20px;
+}
+
+textarea{
+    max-width: 100%;
+    resize: vertical;
+    min-height: 3em;
+    border: 1px solid #a797bb;
+}
+
+select {
+    background-color:#1c0031ee
+}
+
+
+label{
+    font-size: 0.7em;
+    line-height: 2em;
+}
+
+.checkbox {
+    width: auto;
+}
+
+
+.condiciones {
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.datalist_label{
+    font-size: 1em;
+    
+}
+
+.form_submit{
+    margin-top: 15px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unidades de Medida</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Has recibido un mensaje<span> (hace un momento)</span></h1>
+        <p>Existen dos tipos de unidades de medida: las absolutas y las relativas. Las absolutas son cm, mm y pulgadas que se utilizan para imprimir o para hacer aplicaciones en donde el usuario tiene que interactuar con un objeto.</p>
+
+        <p>Las unidades relativas permiten diseños responsive, ya que estas dependen de otro valor y se adaptan a el. La mas comun es el porcentaje (%): si el contenedor tiene un tamaño definido, el tamañado del contenido va a ser un porcentaje respecto al del contenedor.</p>
+
+        <p>
+            Cuando el porcentaje se utiliza con texto, el font-size del texto se va a adptar al fon-size de la caja contenedora. Osea, si el font-size de la caja contenedora es de 16px, el texto contenedor se va a adaptar a eso si esta en porcentaje 
+        </p>
+
+        <p>El em es otra medida relativa al font-size del elemento padre. Es un multiplicador. Si font-size de la caja contenedora es 20px y rl font-size de contenedor es 2em, significa que el font-size del contenedor es 2*20px (40px). Si el font-size del elemento padre no esta definito, el em va a buscar el font-size del elemento mas arriba de el. Si no encuentra nada, va al tamaño que viene por defento en el navegador que es 16px</p>
+
+        <p>El rem es lo mismo pero en vez de buscar al elemento padre, busca al elemento raiz (html)</p>
+
+        <p>Luego esta viewport heigth (vh) y viewport width (vw). Esta medida es respecto a la medida del viewport disponible. Se adapta a la pantalla de vision. Si se coloca 50vw, se va a adaptar a mitad del ancho (horizontal) del viewport disponible</p>
+
+    </div>
+
+
+
+</body>

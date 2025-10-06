@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Propiedades de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+
+</head>
+
+<body>
+<h1>TITULO</h1>
+
+
+<p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nam in aliquam reiciendis, atque, porro qui architecto omnis perspiciatis sunt ducimus facere placeat eum <span>consequatur</span> aut non, excepturi animi eaque!
+</p>
+
+<!--
+TODOS LOS ELEMENTOS MODIFICADORES DE TEXTO TIENEN QUE IR SEPARADOS POR ;
+
+Color: modifica el folor
+
+Font family: modifica la tipografia. Esta, si su nombre no tiene espacios, se puede colocar el nombre tal cual. Si tiene espacios, se tiene que colocar comillas simples. Se pueden separar varias tipografias por coma para que, si en el sistema operativo de la computadora no se encuentra una tipografia, cargue otra tipografia
+
+font-size: modifica el tamaño de texto
+
+fon-weigth: modifica el ancho del texto. 
+Nota: si se quiere resaltar en negritas un texto, se utiliza en CSS font-weigth: bold. No se utiliza en HTML la etiqueta <b>. Si se quiere resaltar la palabra en negritas en HTML, se utiliza la etiqueta <strong> para que el navegador entienda que es una palabra clave. Sirve a nivel de SEO 
+    los grosores de texto van del 100 al 900. Cuando se crea una tipografia, se define cada valor (100, 200, 300, etc)
+    Hay algunas tipografias que no definen todos los valores, sino que definen nada mas dos o tres (100 , 700 (que es bold) y 900)
+    Si se escribe "bolder", independientemente de en que grosor se encuentre la tipografia, este ira un paso mas alla 
+
+font-style: define que tan inclinada esta la tipografia. Por defecto se configura en normal, pero puede estar muy inclinada (italic) o solo un podo inclinada (oblique). Esto depende de lo que la tipografia admita
+
+text-aling: alineacion del texto (centrado, justificado, de izquierda a derecha (start) o de derecha a izquierda (end))
+
+text-decoration: para colocar underline (texto con linea debajo, como los enlaces), overline (lo mismo pero la linea arriba), line-though (tachar el texto con una linea en el centro). Se pueden mexclar las propiedades y usar dos al mismo tiempo. 
+
+line-height: espaciado entre linea y linea de un texto. "Normal" es por defecto 
+
+letter-spacing: espaciado entre letra y letra
+
+text-transform: si quieres todo el texto en minusculas (lowercase) o mayusculas (uppercase). "Capitalize" pone el inicio de todas las palabras en mayuscula
+
+text-shadow: sombras para el texto
+
+word-wrap:
+word-break:
+-->
+
+<!--Hay dos formas de agregar una tipografia. La sencilla es 1) en google fonts, copiar y pegar el codigo para insertarla en el head
+
+2) Descargando la tipografia y configurandola. Para ello, se siguen los siguientes pasos (avanzado):
+a) crear un nuevo archivo .css
+b) descargar la tipografia (puede ser tambien en google fonts)
+c) guardar la carpeta con todas las tipografias en la misma donde se esta configurando el archivo
+d) escribir: 
+        @font-face {
+            (nombre de la tipografia) font-family: "nombre_tipografia";
+            (donde se encuentra la tipografia) src: url("ruta_tipografía_descargada") format("truetype") (esto hace que la tipografia cargue en todos los navegadores);
+e) despues de ello, se puede configurar el weigth en diferentes etiquetas
+}-->
+
+
+
+</body>
+
+</html>
