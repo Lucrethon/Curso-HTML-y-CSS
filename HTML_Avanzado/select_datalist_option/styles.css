@@ -16,7 +16,7 @@ h2{
 
 form {
     background: transparent;
-    padding: 20px 0;
+    padding: 20px 10px;
     padding-top: 10px;
     max-width: 500px;
     margin: auto;
@@ -82,4 +82,15 @@ label{
 
 .form_submit{
     margin-top: 15px;
+}
+
+fieldset{
+    margin: 1.5em 1em;
+    border: 1px solid #a797aa;
+    border-radius: 7px;
+    
+}
+
+legend {
+    padding: 0 10px;
 }
