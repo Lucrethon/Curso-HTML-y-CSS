@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Enlaces (avanzado)</title>
+</head>
+<body>
+
+    <form>
+        <h2>Formulario de contacto</h2>
+
+        <fieldset>
+        <legend>INFROMACION PERSONAL</legend>
+
+                <div class="form_input">
+                    <label for="Nombre">Nombre completo</label>
+                    <input id="Nombre" type="text" placeholder="Pepito">
+                </div>
+            
+                <div class="form_input">
+                    <label for="Apellido">Apellido</label>
+                    <input id="Apellido" type="text" placeholder="Perez">
+                </div>
+            
+                <div class="form_input">
+                    <label for="Edad">Edad</label>
+                    <input id="Edad" type="number" placeholder="Edad">
+                </div>
+
+                
+            </datalist>   
+
+        </fieldset>
+
+        <fieldset>
+        <legend>INFORMACION DE CONTACTO</legend>
+
+                <div class="form_input">
+                    <label for="Correo">Correo electronico</label>
+                    <input id="Correo" type="email" placeholder="pepito@gmail.com">
+                </div>
+                
+                <div class="form_input">
+                    <label for="Telefono">Telefono</label>
+                    <input id="Telefono" type="number" placeholder="Numero Telefonico">
+                </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>INFORMACION DE ENVIO</legend>
+                
+                <!-- SELECT Y OPTION -->
+
+                <div class="form_input">
+                    <label>Tipo de Envio
+                        <select name="fruits">
+                            <option value="fruit1">Aereo</option>
+                            <option value="fruit2">Maritimo</option>
+                            <option value="fruit3">Terrestre</option>
+
+                        </label>
+                    </select>
+                </div>
+
+            <!-- DATALIST Y OPTION -->
+
+
+                <div class="form_input">
+                    <label class="datalist_label">Pais de Envio
+                        <input list="Pais" name="Pais">
+                        <datalist id="Pais" name="Pais">
+                            <option value="Colombia">Bogota</option>
+                            <option value="Peru">Lima</option>
+                            <option value="Venezuela">Caracas</option>
+                            <option value="Argentina">Buenos Aires</option>
+                    </label>
+                </div>
+            
+            <!-- TEXTAREA -->
+                
+                <div class="form_input">
+                    <label for="Mensaje">Direccion</label>
+                    <textarea id="Mensaje" rows="3" placeholder="Municipio, Calle, N. de Casa"></textarea>
+                </div>
+
+        </fieldset>
+
+
+
+        <div class="form_input condiciones">
+            <label>Acepto los terminos y condiciones. <input class="checkbox" type="checkbox"></label>
+        </div>
+
+        <div class="form_input form_submit">
+            <input type="submit" placeholder="Enviar">
+        </div>
+
+    
+</body>
+</html>
